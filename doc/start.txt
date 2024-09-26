@@ -1,0 +1,8 @@
+nextJs автоматически запускает page.js из папки app
+
+все файлы отправляются как статические с сервера
+
+page.js - define page content
+layout.js - define wrapper around pages
+not-found.js - define 'not found' fallback page
+error.js - define 'error' fallback page

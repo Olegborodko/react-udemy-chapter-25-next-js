@@ -1,4 +1,5 @@
 export default function Home() {
+  console.log('here'); // this message will be shown on the server
   return (
     <main>
       <img src="/logo.png" alt="A server surrounded by magic sparkles." />
