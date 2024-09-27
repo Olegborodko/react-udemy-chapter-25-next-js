@@ -6,6 +6,10 @@ page.js - define page content
 layout.js - define wrapper around pages
 not-found.js - define 'not found' fallback page
 error.js - define 'error' fallback page
+loading.js => Fallback page which is shown whilst sibling or nested pages (or layouts) are fetching data
+route.js => Allows you to create an API route (i.e., a page which does NOT return JSX code but instead data, e.g., in the JSON format)
+
+https://nextjs.org/docs/app/api-reference/file-conventions
 
 должен быть хотя-бы один главный layout.js файл
 
